@@ -16,26 +16,32 @@ document.getElementById('credit').textContent = `Created by ${yourName}`
 // Ginger Bread
 document.getElementById('add-gb').addEventListener('click', function() {
     document.getElementById("qty-gb").innerHTML ++
+    document.getElementById("qty-total").innerHTML ++
 })
 document.getElementById('minus-gb').addEventListener('click', function() {
     document.getElementById("qty-gb").innerHTML --
+    document.getElementById("qty-total").innerHTML --
 })
 
 // Chocolate Chip
 document.getElementById('add-cc').addEventListener('click', function() {
     document.getElementById("qty-cc").innerHTML ++
+    document.getElementById("qty-total").innerHTML ++
 })
 
 document.getElementById('minus-cc').addEventListener('click', function() {
     document.getElementById("qty-cc").innerHTML --
+    document.getElementById("qty-total").innerHTML --
 })
 
 // Sugar Sprinkle
 document.getElementById('add-sugar').addEventListener('click', function() {
     document.getElementById("qty-sugar").innerHTML ++
+    document.getElementById("qty-total").innerHTML ++
 })
 
 document.getElementById('minus-sugar').addEventListener('click', function() {
     document.getElementById("qty-sugar").innerHTML --
+    document.getElementById("qty-total").innerHTML --
 })
 
